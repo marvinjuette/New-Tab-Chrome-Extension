@@ -1,0 +1,10 @@
+{
+  "name": "New Tab",
+  "description": "Changes the New Tab",
+  "version": "1.0",
+  "author": "Marvin Jütte",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "new_tab.html"
+  }
+}
