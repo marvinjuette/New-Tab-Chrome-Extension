@@ -1,5 +1,5 @@
 body {
-    background: url("images/bg01.png") no-repeat;
+    background: url("../images/bg01.png") no-repeat;
     background-size: 1920px 1080px;
     font-family: Arial, serif;
 }
@@ -28,4 +28,21 @@ body {
     left: 0;
     right: 0;
     font-size: 2em;
+}
+
+#footer {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    color: white;
+    font-family: Arial, serif;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }
