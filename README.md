@@ -16,9 +16,9 @@ und stehen jedem zur freien Verfügung.
 ## Installation:
 1. [chrome://extensions](chrome://extensions) öffnen
 2. Oben rechts den Entwicklermodus aktivieren
-3. Die Erweiterung hochladen
-    1) Oben links auf 'Entpacke Erweiterung laden' klicken
-    2) Den Extension Ordner auswählen und mit einem Klick auf 'OK' bestätigen
+3. Die Erweiterung hochladen<br/>
+    1) Oben links auf 'Entpacke Erweiterung laden' klicken<br/>
+    2) Den Extension Ordner auswählen und mit einem Klick auf 'OK' bestätigen<br/>
 4. Oben recht den Entwicklermodus wieder deaktivieren
     
 <br/><br/><br/><br/>
@@ -35,7 +35,7 @@ The background images are self-made, so feel free to use it.
 ## Installation
 1. open [chrome://extensions](chrome://extensions)
 2. Enable developer mode in the top-right corner
-3. Upload extension
-    1) click on 'Load unpacked' in the top-left corner
-    2) Select the extension folder and click on 'ok'  
+3. Upload extension<br/>
+    1) click on 'Load unpacked' in the top-left corner<br/>
+    2) Select the extension folder and click on 'ok'<br/>
 4. deactivate developer mode again
