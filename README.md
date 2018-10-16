@@ -10,8 +10,7 @@
 ![Beispiel Bild](https://nivram710.ddns.net/res/images/devel/chrome/new_tab/example.png)
 Beispiel Bild
  
-Die Hintergrund Bilder sind selbst gemacht
-und stehen jedem zur freien Verfügung.
+> Die Hintergrund Bilder sind selbst gemacht und stehen jedem zur freien Verfügung.
 
 ## Installation:
 1. [chrome://extensions](chrome://extensions) öffnen
@@ -30,7 +29,7 @@ und stehen jedem zur freien Verfügung.
     Author: Marvin Jütte
     Description: This extension replaces the default "New Tab"-Extension
     Supported browser: Google Chrome
-The background images are self-made, so feel free to use it.
+> The background images are self-made, so feel free to use it.
 
 ## Installation
 1. open [chrome://extensions](chrome://extensions)
