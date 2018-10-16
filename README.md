@@ -14,7 +14,7 @@ Die Hintergrund Bilder sind selbst gemacht
 und stehen jedem zur freien Verfügung.
 
 ## Installation:
-1. [chrome://extension](chrome://extension) öffnen
+1. [chrome://extensions](chrome://extensions) öffnen
 2. Oben rechts den Entwicklermodus aktivieren
 3. Die Erweiterung hochladen
     1) Oben links auf 'Entpacke Erweiterung laden' klicken
@@ -33,7 +33,7 @@ und stehen jedem zur freien Verfügung.
 The background images are self-made, so feel free to use it.
 
 ## Installation
-1. open [chrome://extension](chrome://extension)
+1. open [chrome://extensions](chrome://extensions)
 2. Enable developer mode in the top-right corner
 3. Upload extension
     1) click on 'Load unpacked' in the top-left corner
