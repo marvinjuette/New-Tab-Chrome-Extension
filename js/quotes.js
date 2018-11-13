@@ -1,12 +1,15 @@
 // debug output
-if (debugMode) console.log("Debug: newQuote() called");
+if (debugMode) console.log("newQuote() called");
 date.setHours(0, 0, 0, 0);
 
 // if user have birthday today, use other quotes
 if (isBirthday(date)) {
     let randomNumber = Math.floor(Math.random() * (quotesBirthday.length));
     document.getElementById('quote').innerText = quotesBirthday[randomNumber];
-    if (debugMode) console.log("Debug: randomNumber=" + randomNumber + "; quote=" + quotesBirthday[randomNumber])
+    if (debugMode) {
+		console.log("randomNumber=" + randomNumber)
+		console.log("quote=" + quotesBirthday[randomNumber])
+	}
 } else {
     let randomNumber = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quote').innerText = quotes[randomNumber];
