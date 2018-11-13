@@ -1,25 +1,30 @@
-// debug output
-if (debugMode) console.log("Debug: time() called");
-if (debugMode) console.log("Debug: date=" + date);
+// set the clock to the date const, clock will aperar instantly
+document.getElementById('clock').innerHTML = h + ":" + m
 
-// format clock
-h = checkTime(h);
-m = checkTime(m);
+// This functions shows the clock on the page
+function updateTime() {
+	if(debugMode) console.log("Debug: updateTime() called")	
 
-// debug output
-if (debugMode) console.log("Debug: h=" + h + "; m=" + m);
-
-// show clock on page
-document.getElementById('clock').innerHTML = h + ":" + m;
-
-// reformat time (h=9,m=5 --> h=09, m=05)
-function checkTime(i) {
-    if (debugMode) console.log("Debug: checkTime() called");
-    if (i < 10) {
-        i = "0" + i;
-    }
-
-    // debug output
-    if (debugMode) console.log("Debug: i=" + i);
-    return i;
+	let current_date = new Date()
+	let hours = current_date.getHours()
+	let minutes = current_date.getMinutes()
+	if(debugMode) {
+		console.log("date=" + date)
+		console.log("hours=" + hours)
+		console.log("minutes=" + minutes)
+	}
+	
+	if(hours < 10) {
+		hours = "0" + hours
+		if(debugMode) console.log("hours: " + hours)
+	}
+	if(minutes < 10) {
+		minutes = "0" + minutes
+		if(debugMode) console.log("minutes: " + minutes)
+	}
+	
+	document.getElementById('clock').innerHTML = hours + ":" + minutes
 }
+
+//rerun the code to keep the clock up to date
+setInterval(updateTime, 1000)
