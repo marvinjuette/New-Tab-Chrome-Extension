@@ -1,5 +1,5 @@
 // debug output
-if (debugMode) console.log("Debug: greetings() called");
+if (debugMode) console.log("greetings() called");
 
 // choose greeting after time
 if (h >= 4 && h < 12) document.getElementById('period').innerHTML = "morning, " + name + ".";
