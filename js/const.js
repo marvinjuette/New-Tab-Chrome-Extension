@@ -10,6 +10,7 @@ const date = new Date()
 const h = date.getHours()
 const m = date.getMinutes()
 
+// Quotes
 const quotes = [
 // current date/time
 // quotes,
@@ -32,8 +33,6 @@ if(debugMode) {
 	console.log("date="+date)
 	console.log("debugMode="+debugMode)
 	console.log("numberOfBackgroundImages="+numberOfBackgroundImages)
-	console.log("date="+date)
-	console.log("h="+h)
 	console.log("quotes="+quotes)
 	console.log("quotesBirthday="+quotesBirthday)
 }
