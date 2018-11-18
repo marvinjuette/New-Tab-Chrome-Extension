@@ -5,7 +5,7 @@
     Version: 1.0
     Autor: Marvin Jütte
     Beischreibung: Diese Erweiterung ersetzt die "Neue Tab"-Seite
-    Untersützte Browser: Google Chrome
+    Untersützte Browser: Google Chrome, Chromium
 
 ![Beispiel Bild](https://nivram710.ddns.net/res/images/devel/chrome/new_tab/example.png)
 Beispiel Bild
@@ -28,7 +28,7 @@ Beispiel Bild
     Version: 1.0
     Author: Marvin Jütte
     Description: This extension replaces the default "New Tab"-Extension
-    Supported browser: Google Chrome
+    Supported browser: Google Chrome, Chromium
 > The background images are self-made, so feel free to use it.
 
 ## Installation
