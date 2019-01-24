@@ -7,7 +7,7 @@
     Beischreibung: Diese Erweiterung ersetzt die "Neue Tab"-Seite
     Untersützte Browser: Google Chrome, Chromium
 
-![Beispiel Bild](https://nivram710.ddns.net/res/images/devel/chrome/new_tab/example.png)
+![Beispiel Bild](https://www.nivram710.de/res/images/devel/chrome/new_tab/example.png)
 Beispiel Bild
  
 > Die Hintergrund Bilder sind selbst gemacht und stehen jedem zur freien Verfügung.
