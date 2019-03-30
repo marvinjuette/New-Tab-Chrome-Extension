@@ -4,11 +4,11 @@ const birthday = new Date(2001, 9, 7); //Jahr, Monat (Januar = 0, ..., Dezember 
 
 // developer options
 const debugMode = false;
-const numberOfBackgroundImages = 4;
+const numberOfBackgroundImages = 5;
 
-const date = new Date()
-const h = date.getHours()
-const m = date.getMinutes()
+const date = new Date();
+const h = date.getHours();
+const m = date.getMinutes();
 
 // Quotes
 const quotes = [
@@ -28,11 +28,11 @@ const quotesBirthday = [
 
 //debug outpus
 if(debugMode) {
-	console.log("name="+name)
-	console.log("birthday="+birthday)
-	console.log("date="+date)
-	console.log("debugMode="+debugMode)
-	console.log("numberOfBackgroundImages="+numberOfBackgroundImages)
-	console.log("quotes="+quotes)
-	console.log("quotesBirthday="+quotesBirthday)
+	console.log("name="+name);
+	console.log("birthday="+birthday);
+	console.log("date="+date);
+	console.log("debugMode="+debugMode);
+	console.log("numberOfBackgroundImages="+numberOfBackgroundImages);
+	console.log("quotes="+quotes);
+	console.log("quotesBirthday="+quotesBirthday);
 }
