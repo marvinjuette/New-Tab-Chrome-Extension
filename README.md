@@ -29,7 +29,7 @@ Beispiel Bild
     Author: Marvin Jütte
     Description: This extension replaces the default "New Tab"-Extension
     Supported browser: Google Chrome, Chromium
-> The background images are self-made, so feel free to use it.
+> The background images are self-made; feel free to use them :D
 
 ## Installation
 1. open [chrome://extensions](chrome://extensions)
